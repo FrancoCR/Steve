@@ -1,0 +1,30 @@
+ def findkeyphrase(audio, keyword):
+
+    # variables
+    searchIndex = 0
+    searchTerm = ''
+    searchTermHolder = []
+
+    # takes audio string and turns it into a list
+    newAudio = audio.split(' ')
+
+    # searches list for keyword logs where the word is
+    for x in newAudio:
+        searchIndex += 1
+        if x.lower() == keyword:
+            searchIndex += 1
+            break
+
+    # makes a new list of everything after the keyword from the audio
+    for x in range(len(newAudio)+1-searchIndex):
+        searchTermHolder.insert(x, newAudio[searchIndex-1])
+        searchIndex += 1
+
+    # creates the string that will be appended to our command call
+    if len(searchTermHolder) != 1:
+        searchTerm = '+'.join(searchTermHolder)
+    else:
+        searchTerm = searchTermHolder[0]
+
+
+    return searchTerm
