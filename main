@@ -1,6 +1,6 @@
 def main():
 
-    while 1:
+    while True:
         # gets audio from mic
         r = sr.Recognizer()
         with sr.Microphone() as source:
