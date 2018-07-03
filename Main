@@ -1,1 +1,10 @@
+def main():
 
+    while 1:
+        # gets audio from mic
+        r = sr.Recognizer()
+        with sr.Microphone() as source:
+            # play audio file
+            audio = r.listen(source)
+            # play audio file
+        decesionTreeCheck(r, audio)
