@@ -1,7 +1,5 @@
 def decesion_tree_check(r, audio):
 
-    steveVoice = " "
-
     if "google" or "search" in r.recognize_sphinx(audio):
         # grab mic audio
         r2 = sr.Recognizer()
