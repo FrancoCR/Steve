@@ -7,7 +7,7 @@ SOHO Search And Security Buddy
 
 -Steve's Specs-
 HARDWARE:
-    Pine64-ROCK64 4GBDDR3 board
+  \Pine64-ROCK64 4GBDDR3 board
   Alfa AWUSO36NH Wifi Adapter
   Custom printed honeypot shaped case
   Movo M1 USB Microphone
