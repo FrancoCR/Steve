@@ -11,13 +11,12 @@
     # searches list for keyword logs where the word is
     for x in newAudio:
         searchIndex += 1
-        if x.lower() == keyword:
-            searchIndex += 1
+        if x.lower() == keyword: 
             break
 
     # makes a new list of everything after the keyword from the audio
-    for x in range(len(newAudio)+1-searchIndex):
-        searchTermHolder.insert(x, newAudio[searchIndex-1])
+    for x in range(len(newAudio)-searchIndex):
+        searchTermHolder.insert(x, newAudio[searchIndex])
         searchIndex += 1
 
     # creates the string that will be appended to our command call
