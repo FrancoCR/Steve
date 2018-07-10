@@ -1,4 +1,4 @@
-def decesion_tree_check(r, audio):
+def decision_tree_check(r, audio):
     
     # variable to put Steve to sleep
     killSteve = False
