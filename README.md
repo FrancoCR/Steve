@@ -44,6 +44,8 @@ Steve's commands:
   Upload files to Github
      -bash
        +any uploads performed by him can be found here
+       
+  Currently looking into making him an antivirus, not sure how to check for malware thats running without a pid or piggybacking on some other process... In addition to this I don't think it would be fairly difficult to make a simple IDS out of him either...
       
 Steve's code is a mixed bag of code borrowed from outside sources, stuff made from scratch, and code I've found and made alterations to accomodate Steve. Once he's been moved from my PC to his home on the PINE64 I'll post links to the relevant sources. 
 
