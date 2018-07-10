@@ -7,4 +7,4 @@ def main():
             # play audio file
             audio = r.listen(source)
             # play audio file
-        decesionTreeCheck(r, audio)
+        decisionTreeCheck(r, audio)
