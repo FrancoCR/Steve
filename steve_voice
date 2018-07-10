@@ -15,7 +15,7 @@ def steve_voice(wav_filename, chunk_size=CHUNKSIZE):
     data = f.readframes(chunk_size)
 
     # Play
-    while data != "":
+    while len(data) > 0:
         stream.write(data)
         data = f.readframes(chunk_size)
 
