@@ -1,20 +1,10 @@
 def decesion_tree_check(r, audio):
+    
+    # variable to put Steve to sleep
+    killSteve = False
 
-    if "google" or "search" in r.recognize_sphinx(audio):
-        # grab mic audio
-        r2 = sr.Recognizer()
+    if "google" in r.recognize_sphinx(audio) or "search" in r.recognize_sphinx(audio):
         URL = "https://www.google.com/search?source?q="
-        with sr.Microphone() as source:
-            audio2 = r2.listen(source)
-            #steveVoice("#path to audio queue")
-            try:
-                # steveVoice("#path to audio queue")
-                os.system('xdg-open' + URL + find_key_phrase(audio2))
-            except sr.UnkownValueError:
-                # play audio DID NOT UNDERSTAND
-                # steveVoice("#path to audio queue")
-                print("poppy-cock")
-            except sr.RequestError as e:
-                # play audio UNABLE TO TRANSCRIBE
-                # steveVoice("#path to audio queue")
-                print("poppy-cock")
+        steveVoice("path to audio queue")
+        os.system('xdg-open' + URL + find_key_phrase(audio))
+       
