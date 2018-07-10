@@ -1,9 +1,9 @@
 # Steve
 SOHO Search And Security Buddy
 
-  Steve's a personal project of mine that I'm using as a part of my ongoing study and research into the field of Cybersecurity and Information Assurance. The voice assistant portion stems from a desire to want an assistant thats similar to JARVIS, and it allows me to use python and easily implement bash. 
+  Steve's a personal project of mine that I'm using as a part of my ongoing study and research into the field of Cybersecurity and Information Assurance. The voice assistant portion stems from a desire to want an assistant that'll do exactly what I tell it to (siri and alexa won't check my network lol), and it allows me to use python and easily implement bash. 
 
-  Steve can do a few things as of now and I'll try to reguarly update his functionalty here. So far I've skipped out on using the PyBrain library so the AI portion of Steve is just a decisiontree. 
+  Steve can do a few things as of now and I'll try to reguarly update his functionalty here. So far I've skipped out on using the PyBrain library so the AI portion of Steve is just a decision tree. 
 
 Steve's Specs
 HARDWARE:
@@ -45,7 +45,7 @@ Steve's commands:
      -bash
        +any uploads performed by him can be found here
       
-Steve's code is a mixed bag of code borrowed from outside sources, stuff made from scratch, and code ive found and made alterations to accomodate Steve. Once he's been moved from my PC to his home on the PINE64 i'll post links to the relevant sources. 
+Steve's code is a mixed bag of code borrowed from outside sources, stuff made from scratch, and code I've found and made alterations to accomodate Steve. Once he's been moved from my PC to his home on the PINE64 I'll post links to the relevant sources. 
 
 A link to an imgur album with Steve will be posted here later:
 -link
