@@ -32,7 +32,7 @@ Steve's commands:
     -Nmap and wireshark
       +Checks unique IP's and MAC addresses
   Search the internet for me:
-    -bash and firefox and mozilla
+    -bash
   Set an Alarm for me and wake me up:
     -primarily python 
   Spin up a crowie and kippo honeypot
