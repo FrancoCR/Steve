@@ -1,10 +1,22 @@
 def main():
 
-    while True:
+       while True:
+        print("Steve's listening...")
         # gets audio from mic
         r = sr.Recognizer()
         with sr.Microphone() as source:
             # play audio file
             audio = r.listen(source)
+            print("done listening...")
             # play audio file
-        decisionTreeCheck(r, audio)
+            audio = r.recognize_sphinx(audio)
+            print("you said: " + audio)
+            '''LOOK AT THIS READ THIS'''
+            # pcm 0x0001 wav needed (16 BIT SIGNED LITTLE ENDIAN!!!!!!!!!!!!!!!!!!!!!!)
+            steve_voice(r"PATH TO WAVE FILE")
+            # works
+            '''VITAL TO VOICE READ COMMENT: https://audio.online-convert.com/convert-to-wav'''
+            # debug output
+            print("checking tree...")
+        if decision_tree_check(r, audio):
+            break
