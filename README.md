@@ -5,13 +5,13 @@ SOHO Search And Security Buddy
 
   Steve can do a few things as of now and I'll try to reguarly update his functionalty here. So far I've skipped out on using the PyBrain library so the AI portion of Steve is just a decision tree. 
 
-Steve's Specs
 HARDWARE:
   * Pine64-ROCK64 4GBDDR3 board
   * Alfa AWUSO36NH Wifi Adapter
   * Custom printed honeypot shaped case
   * Movo M1 USB Microphone
   * USHONK USB Mini Speaker (that I took apart and gutted)
+
 SOFTWARE:
   * Armbian
   * Crowie
