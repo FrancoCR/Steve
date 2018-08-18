@@ -32,7 +32,7 @@ Steve's commands:
     -bash
   * Set an Alarm for me and wake me up:
     -primarily python 
-  * Spin up a crowie and kippo honeypot
+  * Spin up a crowie honeypot
     -bash
       +logs are stored but accessed via another command
   * Check honeypot logs
