@@ -7,38 +7,38 @@ SOHO Search And Security Buddy
 
 Steve's Specs
 HARDWARE:
-  *Pine64-ROCK64 4GBDDR3 board
-  *Alfa AWUSO36NH Wifi Adapter
-  *Custom printed honeypot shaped case
-  *Movo M1 USB Microphone
-  *USHONK USB Mini Speaker (that I took apart and gutted)
+  * Pine64-ROCK64 4GBDDR3 board
+  * Alfa AWUSO36NH Wifi Adapter
+  * Custom printed honeypot shaped case
+  * Movo M1 USB Microphone
+  * USHONK USB Mini Speaker (that I took apart and gutted)
 SOFTWARE:
-  *Armbian
-  *Crowie
-  *Glastopf
-  *Snort
-  *ELK
-  *Wireshark
-  *Nmap
-  *Air-mon ng
-  *Arp
-  *Metasploit
+  * Armbian
+  * Crowie
+  * Glastopf
+  * Snort
+  * ELK
+  * Wireshark
+  * Nmap
+  * Air-mon ng
+  * Arp
+  * Metasploit
  
 Steve's commands:
-  *Scans network to see whos on it:
+  * Scans network to see whos on it:
     -Nmap and wireshark
       +Checks unique IP's and MAC addresses
-  *Search the internet for me:
+  * Search the internet for me:
     -bash
-  *Set an Alarm for me and wake me up:
+  * Set an Alarm for me and wake me up:
     -primarily python 
-  *Spin up a crowie and kippo honeypot
+  * Spin up a crowie and kippo honeypot
     -bash
       +logs are stored but accessed via another command
-  *Check honeypot logs
+  * Check honeypot logs
      -bash 
       +scans textfiles using grep for relevant information
-  *Upload files to Github
+  * Upload files to Github
      -bash
        +any uploads performed by him can be found here
        
