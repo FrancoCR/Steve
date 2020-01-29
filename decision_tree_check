@@ -1,0 +1,10 @@
+def decision_tree_check(r, audio):
+    
+    # variable to put Steve to sleep
+    killSteve = False
+
+    if "google" in r.recognize_sphinx(audio) or "search" in r.recognize_sphinx(audio):
+        URL = "https://www.google.com/search?source?q="
+        steveVoice("path to audio queue")
+        os.system('xdg-open' + URL + find_key_phrase(audio))
+       
